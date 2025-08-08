@@ -30,6 +30,16 @@
     box-sizing: inherit;
 }
 
+.about__photo {
+  width: 500px;               /* atau ukuran lain sesuai keinginan */
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;         /* ini yang membuatnya bulat */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 4px solid #fff;     /* opsional: bingkai putih */
+}
+
+
 .rounded-card {
   width: 100%;
   max-width: 500px;
