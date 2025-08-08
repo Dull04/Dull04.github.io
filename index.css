@@ -16,10 +16,35 @@
     src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
 
+.footer,
+.work,
+.about,
+.contact {
+  background: linear-gradient(135deg, #1e1e1e, #302b3a);
+  color: #dadada;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+}
+
+.rounded-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05); /* subtle soft glow */
+  background-color: #1e1e1e; /* match dark mode bg */
+  padding: 8px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.rounded-card:hover {
+  transform: scale(1.02);
 }
 
 :root {
